@@ -1,0 +1,108 @@
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    display: inline-block;
+    padding: 17px;
+    background-color: rgb(255, 177, 88);
+    box-shadow: 5px 5px 5px rgb(60, 24, 0);
+}
+.have {
+    border: 1px solid;
+    display: inline-block;
+    padding: 20px 50px 20px 50px;
+    background-color: rgb(255, 185, 115);
+    box-shadow: 5px 5px 5px rgb(60, 24, 0);
+}
+
+.div-block {
+    border: 1px solid;
+    border-radius: 20px;
+    margin-bottom: 18px;
+    background-color: rgb(255, 189, 97);
+    box-shadow: 5px 5px 5px rgb(60, 24, 0);
+}
+
+.b-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding-bottom: 11%;
+    padding-top: 11%;
+}
+
+.div-p {
+    border-bottom: 1px solid;
+    text-align: center;
+    background-color: rgb(255, 152, 33);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0.1px;
+  width: 250px;
+}
+
+p {
+    margin-inline: 10%;
+ 
+}
+.name {
+    border: 1px solid;
+    border-radius: 20px;
+    margin-bottom: 27px;
+    text-align: center;
+    background-color: rgb(255, 147, 47);
+    box-shadow: 5px 5px 5px rgb(60, 24, 0);
+}
+.one {
+    display: flex;
+   justify-content: center;
+}
+.b-3 {
+    display: flex;
+    justify-content: flex-end
+}
+.b-4 {
+    justify-content: space-around;
+      display: flex;
+}
+.b-2 {
+        display: flex;
+        justify-content: flex-start;
+}
+.b-5 {
+        display: flex;
+        justify-content: space-between;
+}
+.b-6 {
+        display: flex;
+        justify-content: space-evenly;
+}
+img {
+    width: 23px;
+}
+.slow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.low {
+display: inline-block;
+background-color: rgb(255, 121, 43);
+border-radius: 30px;
+border: 1px solid;
+box-shadow: 5px 5px 5px rgb(60, 24, 0);
+}
+.pok {
+    color: beige;
+   margin-inline: 25px;
+   text-shadow: 5px 5px 5px rgb(255, 254, 254);
+}
+@media (max-width: 320px) {
+   .body {
+width: auto;
+   }
+}
